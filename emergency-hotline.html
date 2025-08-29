@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emergency Hotline Service Bangladesh</title>
+    <!-- tailwindcss connect -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- daisyUI connect -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+     <!-- font-awesome connect -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- Navbar Section -->
@@ -39,6 +44,7 @@
 
      </section>
 
+     <section class="bg-[#f5fff6]">
      <!-- Banner Section -->
       <section class="w-[1920px] h-[339px] bg-gradient-to-r from-[#013223] to-[#006747] justify-center items-center text-center">
         <div class="ml-[914px] mr-[914px] ">
@@ -52,11 +58,20 @@
 
       <!-- Main section or Card section -->
        <section class="w-[1920px] h-[1615px] flex">
+
         <div class="w-[1370px] h-[1140px] grid grid-cols-3 mt-[52.5px] ml-[58px]">
-        <div class="border-[1px] border-red-500 w-[436px] h-[360px] bg-white p-[32px]">
-            <div>
-                <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">    
+
+        <div class="shadow-md rounded-[12px] w-[436px] h-[360px] bg-[#ffffff] p-[32px]">
+
+            <div class="flex gap-[288px]">
+                <div class=" flex w-[60px] h-[60px] bg-[#ffe3e2] rounded-[16px] items-center justify-center">
+                <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">  
             </div>
+            <div>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            </div>
+            
             <div>
                 <h1>জাতীয় জরুরী সেবা</h1>
                 <p>National Emergency Service</p>
@@ -64,137 +79,145 @@
                 <h1>999</h1>
                 <p>সার্বজনীন</p>
             </div>
-            <div>
-                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center  rounded-[8px]">Copy</button>
-                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center bg-[#00a63e]">Call</button>
+            <div class="items-center flex gap-[8px] mt-[24px]">
+                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center  rounded-[8px] border-[1px] border-[#d4d6d5]"><i class="fa-regular fa-copy"></i>Copy</button>
+                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center bg-[#00a63e] rounded-[8px]"><i class="fa-solid fa-phone"></i>Call</button>
             </div>
         </div>
-        <div class="border-[1px] border-red-500 w-[436px] h-[360px] p-[32px]">
+
+        <div class="shadow-md rounded-[12px] w-[436px] h-[360px] p-[32px] bg-[#ffffff]">
             <div>
-                <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">    
+                <img class="w-[32px] h-[32px]" src="./assets/police.png" alt="">
+                <i class="fa-regular fa-heart"></i>    
             </div>
             <div>
-                <h1>জাতীয় জরুরী সেবা</h1>
-                <p>National Emergency Service</p>
+                <h1>পুলিশ</h1>
+                <p>Police</p>
                 <br>
                 <h1>999</h1>
-                <p>সার্বজনীন</p>
+                <p>পুলিশ</p>
             </div>
             <div>
-                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center  rounded-[8px]">Copy</button>
-                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center bg-[#00a63e]">Call</button>
+                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center  rounded-[8px]"><i class="fa-regular fa-copy"></i>Copy</button>
+                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center bg-[#00a63e]"><i class="fa-solid fa-phone"></i>Call</button>
             </div>
         </div>
-        <div class="border-[1px] border-red-500 w-[436px] h-[360px] p-[32px]">
+        <div class="shadow-md rounded-[12px] w-[436px] h-[360px] p-[32px] bg-[#ffffff]">
             <div>
-                <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">    
+                <img class="w-[32px] h-[32px]" src="./assets/fire-service.png" alt="">
+                <i class="fa-regular fa-heart"></i>    
             </div>
             <div>
-                <h1>জাতীয় জরুরী সেবা</h1>
-                <p>National Emergency Service</p>
+                <h1>ফায়ার সার্ভিস</h1>
+                <p>Fire Service</p>
                 <br>
                 <h1>999</h1>
-                <p>সার্বজনীন</p>
+                <p>ফায়ার</p>
             </div>
             <div>
-                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center  rounded-[8px]">Copy</button>
-                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center bg-[#00a63e]">Call</button>
+                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center  rounded-[8px]"><i class="fa-regular fa-copy"></i>Copy</button>
+                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center bg-[#00a63e]"><i class="fa-solid fa-phone"></i>Call</button>
             </div>
         </div>
-        <div class="border-[1px] border-red-500 w-[436px] h-[360px] p-[32px]">
+        <div class="shadow-md rounded-[12px] w-[436px] h-[360px] p-[32px] bg-[#ffffff]">
             <div>
-                <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">    
+                <img class="w-[32px] h-[32px]" src="./assets/ambulance.png" alt="">    
             </div>
             <div>
-                <h1>জাতীয় জরুরী সেবা</h1>
-                <p>National Emergency Service</p>
+                <h1>অ্যাম্বুলেন্স</h1>
+                <p>Ambulance</p>
                 <br>
-                <h1>999</h1>
-                <p>সার্বজনীন</p>
+                <h1>1994-999999</h1>
+                <p>স্বাস্থ্য</p>
             </div>
             <div>
-                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center  rounded-[8px]">Copy</button>
-                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center bg-[#00a63e]">Call</button>
+                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center  rounded-[8px]"><i class="fa-regular fa-copy"></i>Copy</button>
+                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center bg-[#00a63e]"><i class="fa-solid fa-phone"></i>Call</button>
             </div>
         </div>
-        <div class="border-[1px] border-red-500 w-[436px] h-[360px] p-[32px]">
+        <div class="shadow-md rounded-[12px] w-[436px] h-[360px] p-[32px] bg-[#ffffff]">
             <div>
-                <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">    
+                <img class="w-[32px] h-[32px]" src="./assets/woman and child.png" alt="">
+                <i class="fa-regular fa-heart"></i>    
             </div>
             <div>
-                <h1>জাতীয় জরুরী সেবা</h1>
-                <p>National Emergency Service</p>
+                <h1>নারী ও শিশু সহায়তা</h1>
+                <p>Women and Child Support</p>
                 <br>
-                <h1>999</h1>
-                <p>সার্বজনীন</p>
+                <h1>109</h1>
+                <p>সহায়তা</p>
             </div>
             <div>
-                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center  rounded-[8px]">Copy</button>
-                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center bg-[#00a63e]">Call</button>
+                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center  rounded-[8px]"><i class="fa-regular fa-copy"></i>Copy</button>
+                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center bg-[#00a63e]"><i class="fa-solid fa-phone"></i>Call</button>
             </div>
         </div>
-        <div class="border-[1px] border-red-500 w-[436px] h-[360px] p-[32px]">
+        <div class="shadow-md rounded-[12px] w-[436px] h-[360px] p-[32px] bg-[#ffffff]">
             <div>
-                <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">    
+                <img class="w-[32px] h-[32px]" src="./assets/dudok.png" alt="">
+                <i class="fa-regular fa-heart"></i>    
             </div>
             <div>
-                <h1>জাতীয় জরুরী সেবা</h1>
-                <p>National Emergency Service</p>
+                <h1>দুদক</h1>
+                <p>Anti-Corruption Commision</p>
                 <br>
-                <h1>999</h1>
-                <p>সার্বজনীন</p>
+                <h1>106</h1>
+                <p>সরকারি</p>
             </div>
             <div>
-                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center  rounded-[8px]">Copy</button>
-                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center bg-[#00a63e]">Call</button>
+                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center  rounded-[8px]"><i class="fa-regular fa-copy"></i>Copy</button>
+                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center bg-[#00a63e]"><i class="fa-solid fa-phone"></i>Call</button>
             </div>
         </div>
-        <div class="border-[1px] border-red-500 w-[436px] h-[360px] p-[32px]">
+        <div class="shadow-md rounded-[12px] w-[436px] h-[360px] p-[32px] bg-[#ffffff]">
             <div>
-                <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">    
+                <img class="w-[32px] h-[32px]" src="./assets/electricity.png" alt="">
+                <i class="fa-regular fa-heart"></i>    
             </div>
             <div>
-                <h1>জাতীয় জরুরী সেবা</h1>
-                <p>National Emergency Service</p>
+                <h1>বিদ্যুৎ বিভ্রাট</h1>
+                <p>Power Outage</p>
                 <br>
-                <h1>999</h1>
-                <p>সার্বজনীন</p>
+                <h1>16216</h1>
+                <p>বিদ্যুৎ</p>
             </div>
             <div>
-                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center  rounded-[8px]">Copy</button>
-                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center bg-[#00a63e]">Call</button>
+                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center  rounded-[8px]"><i class="fa-regular fa-copy"></i>Copy</button>
+                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center bg-[#00a63e]"><i class="fa-solid fa-phone"></i>Call</button>
             </div>
         </div>
-        <div class="border-[1px] border-red-500 w-[436px] h-[360px] p-[32px]">
+        <div class="shadow-md rounded-[12px] w-[436px] h-[360px] p-[32px] bg-[#ffffff]">
             <div>
-                <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">    
+                <img class="w-[32px] h-[32px]" src="./assets/brac.png" alt="">
+                <i class="fa-regular fa-heart"></i>    
             </div>
             <div>
-                <h1>জাতীয় জরুরী সেবা</h1>
-                <p>National Emergency Service</p>
+                <h1>ব্র্যাক</h1>
+                <p>BRAC</p>
                 <br>
-                <h1>999</h1>
-                <p>সার্বজনীন</p>
+                <h1>16445</h1>
+                <p>এনজিও</p>
             </div>
             <div>
-                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center  rounded-[8px]">Copy</button>
-                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center bg-[#00a63e]">Call</button>
+                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center  rounded-[8px]"><i class="fa-regular fa-copy"></i>Copy</button>
+                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center bg-[#00a63e]"><i class="fa-solid fa-phone"></i>Call</button>
             </div>
         </div>
-        <div class="border-[1px] border-red-500 w-[436px] h-[360px] p-[32px]">
-            <div>
-                <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">    
+        <div class="w-[436px] h-[360px] p-[32px] bg-[#ffffff] shadow-md rounded-[12px]">
+            <div class="flex">
+                <img class="w-[32px] h-[32px]" src="./assets/railway.png" alt="">
+                <i class="fa-regular fa-heart"></i>    
             </div>
             <div>
-                <h1>জাতীয় জরুরী সেবা</h1>
-                <p>National Emergency Service</p>
+                <h1>বাংলাদেশ রেলওয়ে</h1>
+                <p>Bangladesh Railway</p>
                 <br>
-                <h1>999</h1>
-                <p>সার্বজনীন</p>
+                <h1>163</h1>
+                <p>পরিবহন</p>
             </div>
             <div>
-                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center  rounded-[8px]">Copy</button>
-                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center bg-[#00a63e]">Call</button>
+                <button class="border-[1px] border-red-800 w-[180px] h-[40px] p-[16px] justify-center items-center  rounded-[8px]"><i class="fa-regular fa-copy"></i>Copy</button>
+                <button class="w-[180px] h-[40px] p-[16px] justify-center items-center bg-[#00a63e]"><i class="fa-solid fa-phone"></i>Call</button>
             </div>
         </div>
             
@@ -204,6 +227,7 @@
         <div class="w-[400px] h-[1138px] border-[2px] border-blue-700 mt-[48px] mr-[62px]">
 
         </div>
+       </section>
        </section>
 
 
